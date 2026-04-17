@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FERA</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ENTRY GATE -->
+  <div id="gate" class="gate">
+    <div class="gate-box">
+      <h1>Welcome</h1>
+      <p>Click ENTER</p>
+      <button id="enterBtn">ENTER</button>
+    </div>
+  </div>
+
+  <div id="secondPopup" class="gate" style="display:none;">
+    <div class="gate-box">
+      <h1>Access to everything I make</h1>
+      <p>Get access to all my monthly loops and beats</p>
+
+      <button id="dmBtn">Message me!</button>
+    </div>
+  </div>
+
+  <!-- TOPBAR -->
+  <div class="topbar">
+    <div class="topbar-inner">
+
+      <div class="left">
+        <div class="mute" id="muteBtn">Play</div>
+      </div>
+
+      <div class="links">
+        <span id="igLink">Instagram</span>
+        <span id="beatLink">BeatStars</span>
+        <span id="contactLink">Contact</span>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- AUDIO -->
+  <audio id="bgMusic" loop>
+    <source src="assets/beat.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- BACKGROUND -->
+  <div id="bg1" class="bg"></div>
+  <div id="bg2" class="bg"></div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="title">
+
+      <div class="letter-wrap"><img class="letter" id="F" src="assets/F_1.png"></div>
+      <div class="letter-wrap"><img class="letter" id="E" src="assets/E_1.png"></div>
+      <div class="letter-wrap"><img class="letter" id="R" src="assets/R_1.png"></div>
+      <div class="letter-wrap"><img class="letter" id="A" src="assets/A_1.png"></div>
+
+    </div>
+  </section>
+
+
+  <img id="butterfly" src="assets/butterfly_1.png" />
+
+  <script src="script.js"></script>
+
+
+</body>
+</html>
